@@ -1,3 +1,6 @@
 .idea
 .idea/
 newspaper venv
+accounts/__pycache__/tests.cpython-312.pyc
+pages/__pycache__/tests.cpython-312.pyc
+
