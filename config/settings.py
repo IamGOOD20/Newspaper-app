@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # local
     'accounts.apps.AccountsConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
     # 3rd
     'crispy_forms',
     'crispy_bootstrap4',
@@ -136,3 +137,5 @@ LOGOUT_REDIRECT_URL = 'home'
 LOGIN_REDIRECT_URL = 'home'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+TIME_ZONE = 'Canada/Eastern'
