@@ -7,6 +7,9 @@ from .models import CustomUser
 # newspaperappadmin@gmail.com
 # newspaperappadmin12345
 
+# testuser3
+# Testuser1234512345 # new Testuser5432154321 # Testuser31234512345
+
 class CustomUserAdmin(UserAdmin):
     add_form = CustomUserCreationForm
     form = CustomUserChangeForm
