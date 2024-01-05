@@ -9,8 +9,8 @@ class ArticleListView(ListView):
 class ArticleUpdateView(UpdateView):
     model = Artiicle
     fields = ('title', 'body',)
-    template_name = 'article_update.html'
-
+    template_name = 'article_edit.html'
+    # success_url = reverse_lazy('article_list')
 class ArticleDeleteView(DeleteView):
     model = Artiicle
     template_name = 'article_delete.html'
