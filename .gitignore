@@ -3,4 +3,6 @@
 newspaper venv
 accounts/__pycache__/tests.cpython-312.pyc
 pages/__pycache__/tests.cpython-312.pyc
+articles/__pycache__/views.cpython-312.pyc
+
 
