@@ -22,6 +22,11 @@ class ArticleDetailView(DetailView):
 
 class ArticleCreateView(CreateView):
     model = Artiicle
-    fields = ('title', 'body', 'author',)
+    fields = ('title', 'body',)
     template_name = 'article_new.html'
-    # success_url = reverse_lazy('article_list')
+
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+
+
