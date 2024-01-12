@@ -15,7 +15,10 @@
                 </div>
                 <div class="card-footer">
                     {% for comment in article.comments.all %}
-                        <p><span class="font-weight-bold">{{ comment.author }} &middot;</span>{{ comment }}</p>
+                        <p>
+                            <span class="font-weight-bold">{{ comment.author }}:</span> {{ comment }}
+                        </p>
+
                     {% endfor %}
                 </div>
                 <!-- Changes end here! -->
